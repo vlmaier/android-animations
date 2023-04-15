@@ -6,21 +6,18 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 
-public class FrameAnimation extends Activity
-{
-    private ImageView iv_picture;
+public class FrameAnimation extends Activity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frame_animation);
 
-        iv_picture = (ImageView) findViewById(R.id.iv_picture);
+        ImageView picture = (ImageView) findViewById(R.id.iv_picture);
 
-        iv_picture.setBackgroundResource(R.anim.frames_animation);
+        picture.setBackgroundResource(R.drawable.frames_animation);
 
-        AnimationDrawable frameAnimation = (AnimationDrawable) iv_picture.getBackground();
+        AnimationDrawable frameAnimation = (AnimationDrawable) picture.getBackground();
         frameAnimation.start();
     }
 }
