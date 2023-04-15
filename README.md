@@ -1,3 +1,5 @@
+![](https://github.com/vlmaier/android-animations/actions/workflows/build.yml/badge.svg)
+
 # Android Animations
 
 I have developed this Android application back in 2015. The purpose of this application is to showcase different types of animations using `ObjectAnimator`, `AnimationDrawable` and `AnimationUtils` classes.
