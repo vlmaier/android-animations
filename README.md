@@ -2,19 +2,16 @@
 
 ![](https://github.com/vlmaier/android-animations/actions/workflows/build.yml/badge.svg)
 
-**Android Animations** is a demo application I have developed back in 2015 that allows Android users to
+**Android Animations** is a demo application I have developed back in 2015 that allows Android users
+to
 see different types (frame, tween and property) of animations using `ObjectAnimator`,
 `AnimationDrawable` and `AnimationUtils` classes.
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/18353152/
-209481500-817a94a7-c7f4-4ffe-9ffe-bd134bac943a.png" width="200"/>
-  <img src="https://user-images.githubusercontent.com/18353152/
-209481496-9c29d3f7-537f-4416-aa3a-8fdf248fca2e.png" width="200"/>
-  <img src="https://user-images.githubusercontent.com/18353152/
-209481493-699d7260-e634-4499-a259-29a4ee3522b1.png" width="200"/>
-  <img src="https://user-images.githubusercontent.com/18353152/
-209481542-e80c88e1-7671-4125-9623-75457a2ca66c.png" width="200"/>
+  <img src="https://user-images.githubusercontent.com/18353152/209481500-817a94a7-c7f4-4ffe-9ffe-bd134bac943a.png" width="200"/>
+  <img src="https://user-images.githubusercontent.com/18353152/209481496-9c29d3f7-537f-4416-aa3a-8fdf248fca2e.png" width="200"/>
+  <img src="https://user-images.githubusercontent.com/18353152/209481493-699d7260-e634-4499-a259-29a4ee3522b1.png" width="200"/>
+  <img src="https://user-images.githubusercontent.com/18353152/209481542-e80c88e1-7671-4125-9623-75457a2ca66c.png" width="200"/>
 </p>
 
 ## Prerequisites
@@ -43,6 +40,7 @@ To use **Android Animations**, follow these steps:
 - Run the app (`⌃ R` on macOS)
 
 ## Contributing
+
 To contribute to **Android Animations**, follow these steps:
 
 1. Fork this repository.
@@ -51,7 +49,8 @@ To contribute to **Android Animations**, follow these steps:
 4. Push to the original branch: `git push origin <branch_name>`
 5. Create a pull request.
 
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+Alternatively see the GitHub documentation
+on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## Contact
 
