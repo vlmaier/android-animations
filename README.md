@@ -1,6 +1,7 @@
 # Android Animations
 
 ![](https://github.com/vlmaier/android-animations/actions/workflows/build.yml/badge.svg)
+![](https://github.com/vlmaier/android-animations/actions/workflows/codeql.yml/badge.svg)
 
 **Android Animations** is a demo application I have developed back in 2015 that allows Android users to
 see different types (frame, tween and property) of animations using `ObjectAnimator`,
