@@ -16,8 +16,8 @@ public class PropertyAnimation extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_property_animation);
 
-        LinearLayout layout = (LinearLayout) findViewById(R.id.linLayout);
-        Button button = (Button) findViewById(R.id.button);
+        LinearLayout layout = findViewById(R.id.linLayout);
+        Button button = findViewById(R.id.button);
 
         ObjectAnimator.ofInt(layout, "backgroundColor", RED, GREEN)
                 .setDuration(1000)

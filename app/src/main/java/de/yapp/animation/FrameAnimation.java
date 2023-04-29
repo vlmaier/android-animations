@@ -13,7 +13,7 @@ public class FrameAnimation extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frame_animation);
 
-        ImageView picture = (ImageView) findViewById(R.id.iv_picture);
+        ImageView picture = findViewById(R.id.iv_picture);
 
         picture.setBackgroundResource(R.drawable.frames_animation);
 

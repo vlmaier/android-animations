@@ -10,15 +10,15 @@ import android.widget.Toast;
 
 
 public class TweenAnimation extends Activity implements Animation.AnimationListener {
-    private ImageView picture;
     Animation translate;
+    private ImageView picture;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tween_animation);
 
-        picture = (ImageView) findViewById(R.id.iv_picture);
+        picture = findViewById(R.id.iv_picture);
         picture.setBackgroundResource(R.drawable.frame11);
 
         translate = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.tween_animation);
